@@ -118,16 +118,14 @@ CareGuard integrates **hardware + AI + mobile app**:
 </div>
 ## 🔌 Hardware Setup  
 
-<p align="center">
-  <img src="images/circuit.png" width="500"/>
-</p>
+
 
 ---
 
 ## 🏗️ System Architecture  
 
 <p align="center">
-  <img src="images/architecture.png" width="700"/>
+  <img src="images/care.png" width="700"/>
 </p>
 
 ---
