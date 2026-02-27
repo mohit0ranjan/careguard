@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String   @id @default(uuid())
+  name       String
+  email      String   @unique
+  password   String
+  role       String   @default("elderly") // "elderly" or "caregiver"
+  created_at DateTime @default(now())
+
+  medicines   Medicine[]
+  fall_events FallEvent[]
+  caregivers  Caregiver[]
+}
+
+model Medicine {
+  id         String   @id @default(uuid())
+  user_id    String
+  name       String
+  time       String   // HH:MM format
+  frequency  String   // "daily" or "weekly"
+  taken      Boolean  @default(false)
+  created_at DateTime @default(now())
+
+  user       User     @relation(fields: [user_id], references: [id])
+}
+
+model FallEvent {
+  id         String   @id @default(uuid())
+  user_id    String
+  detected   Boolean
+  timestamp  DateTime @default(now())
+  status     String   @default("pending") // "pending" or "resolved"
+
+  user       User     @relation(fields: [user_id], references: [id])
+}
+
+model Caregiver {
+  id         String   @id @default(uuid())
+  user_id    String
+  name       String
+  phone      String
+
+  user       User     @relation(fields: [user_id], references: [id])
+}
