@@ -111,9 +111,15 @@ CareGuard integrates **hardware + AI + mobile app**:
 ## 📸 App Screenshots  
 
 <p align="center">
-  <img src="images/home.png" width="230"/>
-  <img src="images/dashboard.png" width="230"/>
-  <img src="images/alert.png" width="230"/>
+  <img src="images/home.jpeg" width="230"/>
+  <img src="images/ai.jpeg" width="230"/>
+  <img src="images/aian.jpeg" width="230"/>
+  <img src="images/prescription.jpeg" width="230"/>
+   <img src="images/setting.jpeg" width="230"/>
+    <img src="images/scan.jpeg" width="230"/>
+   
+   
+  
 </p>
 
 <p align="center">
