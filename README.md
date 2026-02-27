@@ -106,28 +106,16 @@ CareGuard integrates **hardware + AI + mobile app**:
 - Real-world wrist-based data  
 - Age: 20–95  
 
----
-
 ## 📸 App Screenshots  
 
-<p align="center">
-  <img src="images/home.jpeg" width="230"/>
-  <img src="images/ai.jpeg" width="230"/>
-  <img src="images/aian.jpeg" width="230"/>
-  <img src="images/prescription.jpeg" width="230"/>
-  
-   
-   
-  
-</p>
-
-<p align="center">
- <img src="images/setting.jpeg" width="230"/>
-  <img src="images/scan.jpeg" width="230"/>
-</p>
-
----
-
+<div align="center" style="overflow-x: auto; white-space: nowrap;">
+  <img src="images/home.jpeg" width="220"/>
+  <img src="images/ai.jpeg" width="220"/>
+  <img src="images/aian.jpeg" width="220"/>
+  <img src="images/prescription.jpeg" width="220"/>
+  <img src="images/setting.jpeg" width="220"/>
+  <img src="images/scan.jpeg" width="220"/>
+</div>
 ## 🔌 Hardware Setup  
 
 <p align="center">
