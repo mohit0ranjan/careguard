@@ -67,11 +67,6 @@ CareGuard integrates **hardware + AI + mobile app**:
 
 ---
 
-## 🎬 Demo (Add GIF Here)
-
-<p align="center">
-  <img src="images/demo.gif" width="700"/>
-</p>
 
 ---
 
@@ -116,7 +111,7 @@ CareGuard integrates **hardware + AI + mobile app**:
   <img src="images/setting.jpeg" width="220"/>
   <img src="images/scan.jpeg" width="220"/>
 </div>
-## 🔌 Hardware Setup  
+
 
 
 
