@@ -124,7 +124,26 @@ CareGuard integrates **hardware + AI + mobile app**:
 </p>
 
 ---
+## 👥 Team & Responsibilities  
 
+#### 👩‍💻 Simranpreet Kaur – Machine Learning & TinyML  
+- Designed and trained 1D CNN model for real-time fall detection  
+- Performed TensorFlow Lite conversion and INT8 quantization  
+- Deployed optimized TinyML model on ESP32 for edge inference  
+- Tuned model for latency, memory efficiency, and accuracy  
+
+#### 🔧 Harmanpreet Singh – Hardware & Embedded Systems  
+- Integrated MPU6050 (6-axis IMU) with ESP32 wearable device  
+- Implemented real-time motion data acquisition and firmware logic  
+- Managed embedded system deployment and hardware optimization  
+
+#### 📱 Mohit Ranjan – Mobile App & Backend Development  
+- Developed CareGuard mobile application using React Native  
+- Built backend services using Node.js and integrated Neon DB  
+- Implemented AI-based medicine image analysis (uses & side effects)  
+- Integrated WhatsApp API for emergency alert notifications  
+
+---
 ## 📁 Project Structure  
 
 ```bash
